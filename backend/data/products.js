@@ -1,0 +1,280 @@
+const products = [
+  {
+    companyName: "Cars",
+    logoUpload: "/images/sample.jpg",
+    companyDescription:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    contactNumber: "22556641",
+    contactEmail: "company1@example.com",
+    stateC: "Maharashtra",
+    city: "Mumbai",
+    page: 1,
+  },
+  {
+    companyName: "Paper",
+    logoUpload: "/images/sample.jpg",
+    companyDescription:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    contactNumber: "22556642",
+    contactEmail: "company2@example.com",
+    stateC: "Maharashtra",
+    city: "Mumbai",
+    page: 1,
+  },
+  {
+    companyName: "Land",
+    logoUpload: "/images/sample.jpg",
+    companyDescription:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    contactNumber: "22556643",
+    contactEmail: "company3@example.com",
+    stateC: "Maharashtra",
+    city: "Mumbai",
+    page: 1,
+  },
+  {
+    companyName: "Cement",
+    logoUpload: "/images/sample.jpg",
+    companyDescription:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    contactNumber: "22556644",
+    contactEmail: "company4@example.com",
+    stateC: "Maharashtra",
+    city: "Mumbai",
+    page: 1,
+  },
+  {
+    companyName: "Soil",
+    logoUpload: "/images/sample.jpg",
+    companyDescription:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    contactNumber: "22556645",
+    contactEmail: "company5@example.com",
+    stateC: "Maharashtra",
+    city: "Mumbai",
+    page: 1,
+  },
+  {
+    companyName: "Water",
+    logoUpload: "/images/sample.jpg",
+    companyDescription:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    contactNumber: "22556646",
+    contactEmail: "company6@example.com",
+    stateC: "Maharashtra",
+    city: "Mumbai",
+    page: 2,
+  },
+  {
+    companyName: "Silver",
+    logoUpload: "/images/sample.jpg",
+    companyDescription:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    contactNumber: "22556647",
+    contactEmail: "company7@example.com",
+    stateC: "Maharashtra",
+    city: "Mumbai",
+    page: 2,
+  },
+  {
+    companyName: "Gold",
+    logoUpload: "/images/sample.jpg",
+    companyDescription:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    contactNumber: "22556648",
+    contactEmail: "company8@example.com",
+    stateC: "Maharashtra",
+    city: "Mumbai",
+    page: 2,
+  },
+  {
+    companyName: "Chai",
+    logoUpload: "/images/sample.jpg",
+    companyDescription:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    contactNumber: "22556649",
+    contactEmail: "company9@example.com",
+    stateC: "Maharashtra",
+    city: "Mumbai",
+    page: 2,
+  },
+
+  {
+    companyName: "Electricity",
+    logoUpload: "/images/sample.jpg",
+    companyDescription:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    contactNumber: "225566411",
+    contactEmail: "company11@example.com",
+    stateC: "Maharashtra",
+    city: "Mumbai",
+    page: 2,
+  },
+  {
+    companyName: "Bottle",
+    logoUpload: "/images/sample.jpg",
+    companyDescription:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    contactNumber: "225566412",
+    contactEmail: "company12@example.com",
+    stateC: "Maharashtra",
+    city: "Mumbai",
+    page: 3,
+  },
+  {
+    companyName: "Spare Parts",
+    logoUpload: "/images/sample.jpg",
+    companyDescription:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    contactNumber: "225566413",
+    contactEmail: "company13@example.com",
+    stateC: "Maharashtra",
+    city: "Mumbai",
+    page: 3,
+  },
+  {
+    companyName: "Hotel",
+    logoUpload: "/images/sample.jpg",
+    companyDescription:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    contactNumber: "225566414",
+    contactEmail: "company@example.com",
+    stateC: "Maharashtra",
+    city: "Mumbai",
+    page: 3,
+  },
+  {
+    companyName: "Restaurant",
+    logoUpload: "/images/sample.jpg",
+    companyDescription:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    contactNumber: "2255664515",
+    contactEmail: "company15@example.com",
+    stateC: "Maharashtra",
+    city: "Mumbai",
+    page: 3,
+  },
+  {
+    companyName: "Medical",
+    logoUpload: "/images/sample.jpg",
+    companyDescription:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    contactNumber: "2255664516",
+    contactEmail: "company16@example.com",
+    stateC: "Maharashtra",
+    city: "Mumbai",
+    page: 3,
+  },
+  {
+    companyName: "Furniture",
+    logoUpload: "/images/sample.jpg",
+    companyDescription:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    contactNumber: "2255664517",
+    contactEmail: "company17@example.com",
+    stateC: "Maharashtra",
+    city: "Mumbai",
+    page: 4,
+  },
+  {
+    companyName: "Glass",
+    logoUpload: "/images/sample.jpg",
+    companyDescription:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    contactNumber: "2255664518",
+    contactEmail: "company18@example.com",
+    stateC: "Maharashtra",
+    city: "Mumbai",
+    page: 4,
+  },
+  {
+    companyName: "Computer",
+    logoUpload: "/images/sample.jpg",
+    companyDescription:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    contactNumber: "2255664519",
+    contactEmail: "company19@example.com",
+    stateC: "Maharashtra",
+    city: "Mumbai",
+    page: 4,
+  },
+  {
+    companyName: "Woods",
+    logoUpload: "/images/sample.jpg",
+    companyDescription:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    contactNumber: "2255664520",
+    contactEmail: "company20@example.com",
+    stateC: "Maharashtra",
+    city: "Mumbai",
+    page: 4,
+  },
+  {
+    companyName: "Plane",
+    logoUpload: "/images/sample.jpg",
+    companyDescription:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    contactNumber: "2255664521",
+    contactEmail: "company21@example.com",
+    stateC: "Maharashtra",
+    city: "Mumbai",
+    page: 4,
+  },
+  {
+    companyName: "Plants",
+    logoUpload: "/images/sample.jpg",
+    companyDescription:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    contactNumber: "2255664522",
+    contactEmail: "company22@example.com",
+    stateC: "Maharashtra",
+    city: "Mumbai",
+    page: 5,
+  },
+  {
+    companyName: "Steel",
+    logoUpload: "/images/sample.jpg",
+    companyDescription:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    contactNumber: "2255664524",
+    contactEmail: "company24@example.com",
+    stateC: "Maharashtra",
+    city: "Mumbai",
+    page: 5,
+  },
+  {
+    companyName: "Cycle",
+    logoUpload: "/images/sample.jpg",
+    companyDescription:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    contactNumber: "2255664525",
+    contactEmail: "company25@example.com",
+    stateC: "Maharashtra",
+    city: "Mumbai",
+    page: 5,
+  },
+  {
+    companyName: "Trucks",
+    logoUpload: "/images/sample.jpg",
+    companyDescription:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    contactNumber: "2255664526",
+    contactEmail: "company26@example.com",
+    stateC: "Maharashtra",
+    city: "Mumbai",
+    page: 5,
+  },
+  {
+    companyName: "Bikes",
+    logoUpload: "/images/sample.jpg",
+    companyDescription:
+      "Etiam cursus condimentum vulputate. Nulla nisi orci, vulputate at dolor et, malesuada ultrices nisi. Ut varius ex ut purus porttitor, a facilisis orci condimentum. Nullam in elit et sapien ornare pellentesque at ac lorem.",
+    contactNumber: "2255664527",
+    contactEmail: "company27@example.com",
+    stateC: "Maharashtra",
+    city: "Mumbai",
+    page: 5,
+  },
+];
+
+export default products;
